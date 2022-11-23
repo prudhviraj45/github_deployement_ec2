@@ -16,6 +16,6 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
           SOURCE: "./"
-          REMOTE_HOST: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
+          REMOTE_HOST: "13.234.186.16"
           REMOTE_USER: "ubuntu"
           TARGET: "/home/ubuntu/prudhvi"
